@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Tiny5&display=swap');
+body{
+    background-color: black;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+}
+.header{
+    grid-column: 1/3;
+    font-size: 3.5rem;
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #74ee15;
+}
+.player1, .player2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #ffe700;
+}
+.dice1, .dice2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: white;
+    margin-top: 30px;
+}
